@@ -104,14 +104,14 @@
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="59.666666666666664"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="User" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2a2-jy-sbq">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="User" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2a2-jy-sbq">
                                                     <rect key="frame" x="8" y="8" width="39" height="13"/>
                                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Message goes here!" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xRb-DA-S5Q">
-                                                    <rect key="frame" x="8" y="31" width="359" height="20.666666666666671"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Message goes here!" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xRb-DA-S5Q">
+                                                    <rect key="frame" x="8" y="31" width="359" height="20.333333333333329"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -119,9 +119,8 @@
                                             </subviews>
                                             <constraints>
                                                 <constraint firstAttribute="trailing" relation="lessThanOrEqual" secondItem="2a2-jy-sbq" secondAttribute="trailing" constant="328" id="044-Vc-ng6"/>
-                                                <constraint firstAttribute="bottom" relation="lessThanOrEqual" secondItem="xRb-DA-S5Q" secondAttribute="bottom" constant="8" id="CHO-xX-jYI"/>
+                                                <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="xRb-DA-S5Q" secondAttribute="bottom" constant="8" id="CHO-xX-jYI"/>
                                                 <constraint firstItem="xRb-DA-S5Q" firstAttribute="leading" secondItem="ifk-AN-CFf" secondAttribute="leading" constant="8" id="G8S-HE-kYf"/>
-                                                <constraint firstAttribute="bottom" secondItem="2a2-jy-sbq" secondAttribute="bottom" constant="38.5" id="Uht-jV-987"/>
                                                 <constraint firstItem="2a2-jy-sbq" firstAttribute="top" secondItem="ifk-AN-CFf" secondAttribute="top" constant="8" id="blR-Cz-YMS"/>
                                                 <constraint firstAttribute="trailing" secondItem="xRb-DA-S5Q" secondAttribute="trailing" constant="8" id="cxX-Up-7Nt"/>
                                                 <constraint firstItem="2a2-jy-sbq" firstAttribute="leading" secondItem="ifk-AN-CFf" secondAttribute="leading" constant="8" id="jxa-BL-uf7"/>
