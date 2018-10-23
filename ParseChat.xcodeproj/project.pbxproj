@@ -18,6 +18,7 @@
 		E154BE4C216F0C7700B4606B /* ParseChatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E154BE4B216F0C7700B4606B /* ParseChatUITests.swift */; };
 		E154BE5B216F0DC700B4606B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E154BE5A216F0DC700B4606B /* LoginViewController.swift */; };
 		E154BE5D216F871400B4606B /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E154BE5C216F871400B4606B /* ChatViewController.swift */; };
+		E1681578217EC720006162EF /* ChatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1681577217EC720006162EF /* ChatCell.swift */; };
 		EF2D9B1047A72B4B0E28862F /* Pods_ParseChatTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 582894AFD5248319C10871F0 /* Pods_ParseChatTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -61,6 +62,7 @@
 		E154BE4D216F0C7700B4606B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E154BE5A216F0DC700B4606B /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		E154BE5C216F871400B4606B /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		E1681577217EC720006162EF /* ChatCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatCell.swift; sourceTree = "<group>"; };
 		EA735C9396CA1FDA8EC3CD4F /* Pods-ParseChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParseChat.release.xcconfig"; path = "Pods/Target Support Files/Pods-ParseChat/Pods-ParseChat.release.xcconfig"; sourceTree = "<group>"; };
 		F4F18C2EED373AF81E2AB615 /* Pods_ParseChatUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ParseChatUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -141,6 +143,7 @@
 		E154BE2A216F0C7600B4606B /* ParseChat */ = {
 			isa = PBXGroup;
 			children = (
+				E1681579217ED467006162EF /* View */,
 				E154BE59216F0DAC00B4606B /* ViewControllers */,
 				E154BE2B216F0C7600B4606B /* AppDelegate.swift */,
 				E154BE2D216F0C7600B4606B /* ViewController.swift */,
@@ -177,6 +180,14 @@
 				E154BE5C216F871400B4606B /* ChatViewController.swift */,
 			);
 			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		E1681579217ED467006162EF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E1681577217EC720006162EF /* ChatCell.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -394,6 +405,7 @@
 				E154BE5B216F0DC700B4606B /* LoginViewController.swift in Sources */,
 				E154BE2E216F0C7600B4606B /* ViewController.swift in Sources */,
 				E154BE5D216F871400B4606B /* ChatViewController.swift in Sources */,
+				E1681578217EC720006162EF /* ChatCell.swift in Sources */,
 				E154BE2C216F0C7600B4606B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
